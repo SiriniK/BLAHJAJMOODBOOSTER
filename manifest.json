@@ -1,0 +1,21 @@
+{
+    "version":"1.0",
+    "manifest_version":2,
+    "name": "BLAHJAJ MOOD BOOSTER", 
+    "description": "displays a Blahjaj at your will, to boost your mood",
+    "browser_action": {
+        "default_icon": "BLAHJAJ.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+	"tabs",
+        "https://app.foliogrow.com/*"
+     ],
+     "icons": {
+        "16": "BLAHJAJ.png",
+        "32": "BLAHJAJ.png",
+        "48": "BLAHJAJ.png",
+        "128": "BLAHJAJ.png"
+    }
+}
